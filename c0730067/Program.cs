@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace c0730067
 {
-    class Program
-    {
-        static void Main(string[] args)
+       
+        class Village
         {
+
+            //Node is an ADT
+            //wgat KIND of DATA do we need in a NODE?
+            public Village nextVillage;
+            public String VillageName;
+            public bool IsAstrildeHere = false;
         }
     }
-}
+
+
+
