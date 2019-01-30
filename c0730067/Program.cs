@@ -11,7 +11,7 @@ namespace c0730067
         {
 
             //Node is an ADT
-            //wgat KIND of DATA do we need in a NODE?
+            //what KIND of DATA do we need in a NODE?
             public Village nextVillage;
             public String VillageName;
             public bool IsAstrildeHere = false;
